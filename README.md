@@ -2,7 +2,7 @@
 
 <ol>
 <li>Machine Learning by Tutorials_ Beginning Machine Learning for Apple and iOS.pdf</li>
-<li>Artificial Neural Networks and Machine Learning – ICANN 2017_ 26th International Conference on Artificial Neural Networks, Alghero, Italy, September 11-14, 2017, Proceedings, Part I.pdf.fdmdownload</li>
+<li>Artificial Neural Networks and Machine Learning – ICANN 2017_ 26th International Conference on Artificial Neural Networks, Alghero, Italy, September 11-14, 2017, Proceedings, Part I.pdf</li>
 <li>Multisensor Data Fusion and Machine Learning for Environmental Remote Sensing.pdf</li>
 <li>Hands-On Machine Learning with Scikit-Learn and TensorFlow_ Concepts, Tools, and Techniques to Build Intelligent Systems.pdf</li>
 <li>Pro Machine Learning Algorithms_ A Hands-On Approach to Implementing Algorithms in Python and R.pdf</li>
