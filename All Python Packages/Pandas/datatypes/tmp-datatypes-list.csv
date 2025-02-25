@@ -1,0 +1,13 @@
+lists,lists_type,cleanse,cleanse_type,cleanse2,cleanse2_type,dumps,dumps_type,1st_item,1st_item_type
+[],<class 'list'>,[],<class 'list'>,[],<class 'list'>,[],<class 'str'>,,<class 'NoneType'>
+"[1, 2]",<class 'list'>,"[1, 2]",<class 'list'>,"[1, 2]",<class 'list'>,"[1, 2]",<class 'str'>,1,<class 'int'>
+"['1', '2']",<class 'list'>,"['1', '2']",<class 'list'>,"['1', '2']",<class 'list'>,"[""1"", ""2""]",<class 'str'>,1,<class 'str'>
+[],<class 'str'>,[],<class 'str'>,[],<class 'list'>,[],<class 'str'>,,<class 'NoneType'>
+[],<class 'str'>,[],<class 'str'>,[],<class 'list'>,[],<class 'str'>,,<class 'NoneType'>
+"[1,2]",<class 'str'>,"[1,2]",<class 'str'>,"[1, 2]",<class 'list'>,"[1, 2]",<class 'str'>,1,<class 'int'>
+"[1,2]",<class 'str'>,"[1,2]",<class 'str'>,"[1, 2]",<class 'list'>,"[1, 2]",<class 'str'>,1,<class 'int'>
+"""[1,2]""",<class 'str'>,"[1,2]",<class 'str'>,"[1, 2]",<class 'list'>,"[1, 2]",<class 'str'>,1,<class 'int'>
+"""['1','2']""",<class 'str'>,"['1','2']",<class 'str'>,"['1', '2']",<class 'list'>,"[""1"", ""2""]",<class 'str'>,1,<class 'str'>
+"['a', 'b']",<class 'list'>,"['a', 'b']",<class 'list'>,"['a', 'b']",<class 'list'>,"[""a"", ""b""]",<class 'str'>,a,<class 'str'>
+"['a','b']",<class 'str'>,"['a','b']",<class 'str'>,"['a', 'b']",<class 'list'>,"[""a"", ""b""]",<class 'str'>,a,<class 'str'>
+"""['a','b']""",<class 'str'>,"['a','b']",<class 'str'>,"['a', 'b']",<class 'list'>,"[""a"", ""b""]",<class 'str'>,a,<class 'str'>

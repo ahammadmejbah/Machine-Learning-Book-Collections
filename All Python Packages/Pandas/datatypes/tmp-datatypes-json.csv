@@ -1,0 +1,15 @@
+jsons,jsons_type,dumps,dumps_type,dumps-loads,dumps-loads_type,cleanse,cleanse_type,dumps2,dumps2_type,dumps-loads2,dumps-loads2_type
+{},<class 'dict'>,{},<class 'str'>,{},<class 'dict'>,{},<class 'dict'>,{},<class 'str'>,{},<class 'dict'>
+{},<class 'str'>,"""{}""",<class 'str'>,{},<class 'str'>,{},<class 'dict'>,{},<class 'str'>,{},<class 'dict'>
+"{'a': 1, 'b': 2}",<class 'dict'>,"{""a"": 1, ""b"": 2}",<class 'str'>,"{'a': 1, 'b': 2}",<class 'dict'>,"{'a': 1, 'b': 2}",<class 'dict'>,"{""a"": 1, ""b"": 2}",<class 'str'>,"{'a': 1, 'b': 2}",<class 'dict'>
+"{'a': 1, 'b': 2}",<class 'dict'>,"{""a"": 1, ""b"": 2}",<class 'str'>,"{'a': 1, 'b': 2}",<class 'dict'>,"{'a': 1, 'b': 2}",<class 'dict'>,"{""a"": 1, ""b"": 2}",<class 'str'>,"{'a': 1, 'b': 2}",<class 'dict'>
+"{'a':1, 'b':2}",<class 'str'>,"""{'a':1, 'b':2}""",<class 'str'>,"{'a':1, 'b':2}",<class 'str'>,"{'a': 1, 'b': 2}",<class 'dict'>,"{""a"": 1, ""b"": 2}",<class 'str'>,"{'a': 1, 'b': 2}",<class 'dict'>
+"{'a':1, 'b':2}",<class 'str'>,"""{'a':1, 'b':2}""",<class 'str'>,"{'a':1, 'b':2}",<class 'str'>,"{'a': 1, 'b': 2}",<class 'dict'>,"{""a"": 1, ""b"": 2}",<class 'str'>,"{'a': 1, 'b': 2}",<class 'dict'>
+"""{'a':1, 'b':2}""",<class 'str'>,"""\""{'a':1, 'b':2}\""""",<class 'str'>,"""{'a':1, 'b':2}""",<class 'str'>,"{'a': 1, 'b': 2}",<class 'dict'>,"{""a"": 1, ""b"": 2}",<class 'str'>,"{'a': 1, 'b': 2}",<class 'dict'>
+"'{'a':1, 'b':2}'",<class 'str'>,"""'{'a':1, 'b':2}'""",<class 'str'>,"'{'a':1, 'b':2}'",<class 'str'>,"{'a': 1, 'b': 2}",<class 'dict'>,"{""a"": 1, ""b"": 2}",<class 'str'>,"{'a': 1, 'b': 2}",<class 'dict'>
+[{}],<class 'list'>,[{}],<class 'str'>,[{}],<class 'list'>,[{}],<class 'list'>,[{}],<class 'str'>,[{}],<class 'list'>
+[{}],<class 'str'>,"""[{}]""",<class 'str'>,[{}],<class 'str'>,[{}],<class 'list'>,[{}],<class 'str'>,[{}],<class 'list'>
+[{}],<class 'str'>,"""[{}]""",<class 'str'>,[{}],<class 'str'>,[{}],<class 'list'>,[{}],<class 'str'>,[{}],<class 'list'>
+"[{'a': 1, 'b': 2}, {'c': 3, 'd': 4}]",<class 'list'>,"[{""a"": 1, ""b"": 2}, {""c"": 3, ""d"": 4}]",<class 'str'>,"[{'a': 1, 'b': 2}, {'c': 3, 'd': 4}]",<class 'list'>,"[{'a': 1, 'b': 2}, {'c': 3, 'd': 4}]",<class 'list'>,"[{""a"": 1, ""b"": 2}, {""c"": 3, ""d"": 4}]",<class 'str'>,"[{'a': 1, 'b': 2}, {'c': 3, 'd': 4}]",<class 'list'>
+"[{'a':1, 'b':2}, {'c':3, 'd':4}]",<class 'str'>,"""[{'a':1, 'b':2}, {'c':3, 'd':4}]""",<class 'str'>,"[{'a':1, 'b':2}, {'c':3, 'd':4}]",<class 'str'>,"[{'a': 1, 'b': 2}, {'c': 3, 'd': 4}]",<class 'list'>,"[{""a"": 1, ""b"": 2}, {""c"": 3, ""d"": 4}]",<class 'str'>,"[{'a': 1, 'b': 2}, {'c': 3, 'd': 4}]",<class 'list'>
+"[""{'a':1, 'b':2}"", ""{'c':3, 'd':4}""]",<class 'list'>,"[""{'a':1, 'b':2}"", ""{'c':3, 'd':4}""]",<class 'str'>,"[""{'a':1, 'b':2}"", ""{'c':3, 'd':4}""]",<class 'list'>,"[""{'a':1, 'b':2}"", ""{'c':3, 'd':4}""]",<class 'list'>,"[""{'a':1, 'b':2}"", ""{'c':3, 'd':4}""]",<class 'str'>,"[""{'a':1, 'b':2}"", ""{'c':3, 'd':4}""]",<class 'list'>

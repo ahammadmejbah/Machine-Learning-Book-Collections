@@ -1,0 +1,8 @@
+dicts,dicts_type,cleanse,cleanse_type
+{},<class 'dict'>,{},<class 'dict'>
+{},<class 'str'>,{},<class 'str'>
+"{'a': 1, 'b': 2}",<class 'dict'>,"{'a': 1, 'b': 2}",<class 'dict'>
+"{'a':1, 'b':2}",<class 'str'>,"{'a':1, 'b':2}",<class 'str'>
+"{'a':1, 'b':2}",<class 'str'>,"{'a':1, 'b':2}",<class 'str'>
+"""{'a':1, 'b':2}""",<class 'str'>,"{'a':1, 'b':2}",<class 'str'>
+"'{'a':1, 'b':2}'",<class 'str'>,"{'a':1, 'b':2}",<class 'str'>

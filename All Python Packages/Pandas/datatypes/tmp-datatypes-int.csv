@@ -1,0 +1,5 @@
+integers,integers_type
+1,<class 'int'>
+1,<class 'str'>
+'1',<class 'str'>
+"""1""",<class 'str'>

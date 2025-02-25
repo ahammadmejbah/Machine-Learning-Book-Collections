@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0050)https://www.clear.rice.edu/comp160/data_cheat.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Data Structures Cheat Sheet</title>
+<style type="text/css">
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 1024px;
+}
+
+a { color: blue; text-decoration: none }
+a:hover { text-decoration: underline }
+.nav { font-size: 70%; }
+
+h1, div.nav { text-align: center; }
+h1 { color: #09f; }
+
+table { font-size: 10pt }
+td,th { text-align: center; width: 11% }
+td.bad { background-color: pink; color: #900 }
+td.good { background-color: #9ec; color: green }
+td.range { background-color: #fe9; color: #d73 }
+td.na { background-color: #cff }
+td.notes { text-align: left; font-size: 70% }
+</style>
+</head>
+<body>
+<h1>Data Structures Cheat Sheet</h1>
+<div class="nav">[<a href="https://www.clear.rice.edu/comp160/data1.html">Data Structures I</a>]
+[<a href="https://www.clear.rice.edu/comp160/data2.html">Data Structures II</a>]
+[<a href="https://www.clear.rice.edu/comp160/data3.html">Data Structures III</a>]
+[<a href="https://www.clear.rice.edu/comp160/data4.html">Data Structures IV</a>]
+[<strong>Data Structures Cheat Sheet</strong>]</div>
+<hr>
+<table width="100%" cellspacing="0" cellpadding="10">
+<tbody><tr>
+	<td></td>
+    <td>add to end</td>
+    <td>remove from end</td>
+    <td>insert at middle</td>
+    <td>remove from middle</td>
+    <td>Random Access</td>
+    <td>In-order Access</td>
+    <td>Search for specific element</td>
+    <th>Notes</th>
+</tr>
+<tr>
+	<td>Array</td>
+    <td class="bad">O(n)</td>
+    <td class="bad">O(n)</td>
+    <td class="bad">O(n)</td>
+    <td class="bad">O(n)</td>
+    <td class="good">O(1)</td>
+    <td class="good">O(1)</td>
+    <td class="bad">O(n)</td>
+    <td class="notes">Most efficient use of memory; use in cases where data size is fixed.</td>
+</tr>
+<tr>
+	<td>List&lt;T&gt;</td>
+    <td class="range">best case O(1); worst case O(n)</td>
+    <td class="good">O(1)</td>
+    <td class="bad">O(n)</td>
+    <td class="bad">O(n)</td>
+    <td class="good">O(1)</td>
+    <td class="good">O(1)</td>
+    <td class="bad">O(n)</td>
+    <td class="notes">Implementation is optimized 
+for speed. In many cases, List 
+will be the best choice.
+</td>
+</tr>
+<tr>
+	<td>Collection&lt;T&gt;</td>
+    <td class="range">best case O(1); worst case O(n)</td>
+    <td class="good">O(1)</td>
+    <td class="bad">O(n)</td>
+    <td class="bad">O(n)</td>
+    <td class="good">O(1)</td>
+    <td class="good">O(1)</td>
+    <td class="bad">O(n)</td>
+    <td class="notes">List is a better choice, unless 
+publicly exposed as API.
+</td>
+</tr>
+<tr>
+	<td>LinkedList&lt;T&gt;</td>
+    <td class="good">O(1)</td>
+    <td class="good">O(1)</td>
+    <td class="good">O(1)</td>
+    <td class="good">O(1)</td>
+    <td class="bad">O(n)</td>
+    <td class="good">O(1)</td>
+    <td class="bad">O(n)</td>
+    <td class="notes">Many operations are fast, 
+but watch out for cache 
+coherency.
+</td>
+</tr>
+<tr>
+	<td>Stack&lt;T&gt;</td>
+    <td class="range">best case O(1); worst case O(n)</td>
+    <td class="good">O(1)</td>
+    <td class="na">N/A</td>
+    <td class="na">N/A</td>
+    <td class="na">N/A</td>
+    <td class="na">N/A</td>
+    <td class="na">N/A</td>
+    <td class="notes">Shouldn't be selected for 
+performance reasons, but 
+algorithmic ones.
+</td>
+</tr>
+<tr>
+	<td>Queue&lt;T&gt;</td>
+    <td class="range">best case O(1); worst case O(n)</td>
+    <td class="good">O(1)</td>
+    <td class="na">N/A</td>
+    <td class="na">N/A</td>
+    <td class="na">N/A</td>
+    <td class="na">N/A</td>
+    <td class="na">N/A</td>
+    <td class="notes">Shouldn't be selected for 
+performance reasons, but 
+algorithmic ones.
+</td>
+</tr>
+<tr>
+	<td>Dictionary&lt;K,T&gt;</td>
+    <td class="range">best case O(1); worst case O(n)</td>
+    <td class="good">O(1)</td>
+    <td class="range">best case O(1); worst case O(n)</td>
+    <td class="good">O(1)</td>
+    <td class="good">O(1)*</td>
+    <td class="good">O(1)*</td>
+    <td class="good">O(1)</td>
+    <td class="notes">Although in-order access time 
+is constant time, it is usually slower than other structures due to the over-head of looking up the key.
+</td>
+</tr>
+</tbody></table>
+
+
+</body></html>
