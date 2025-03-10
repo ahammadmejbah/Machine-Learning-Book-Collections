@@ -1,0 +1,1 @@
+"The Handbook of Brain Theory and Neural Networks" – Michael A. Arbib

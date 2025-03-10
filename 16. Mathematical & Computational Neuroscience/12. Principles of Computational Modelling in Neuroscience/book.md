@@ -1,0 +1,1 @@
+"Principles of Computational Modelling in Neuroscience" – David Sterratt, Bruce Graham, Andrew Gillies, & David Willshaw"The Handbook of Brain Theory and Neural Networks" – Michael A. Arbib

@@ -1,0 +1,1 @@
+"Mathematical Foundations of Neuroscience" – G. Bard Ermentrout & David H. Terman

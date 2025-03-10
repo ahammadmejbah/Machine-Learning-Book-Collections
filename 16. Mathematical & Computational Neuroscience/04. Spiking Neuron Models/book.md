@@ -1,0 +1,1 @@
+"Spiking Neuron Models: Single Neurons, Populations, Plasticity" – Wulfram Gerstner & Werner M. Kistler

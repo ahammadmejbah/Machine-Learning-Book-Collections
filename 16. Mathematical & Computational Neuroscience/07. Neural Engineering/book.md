@@ -1,0 +1,1 @@
+"Neural Engineering: Computation, Representation, and Dynamics in Neurobiological Systems" – Chris Eliasmith & Charles H. Anderson

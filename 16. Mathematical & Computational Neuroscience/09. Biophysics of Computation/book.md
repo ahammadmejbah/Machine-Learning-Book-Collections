@@ -1,0 +1,1 @@
+"Biophysics of Computation: Information Processing in Single Neurons" – Christof Koch

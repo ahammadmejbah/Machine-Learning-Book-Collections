@@ -1,0 +1,1 @@
+"Information Theory, Inference, and Learning Algorithms" – David J.C. MacKay
